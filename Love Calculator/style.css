@@ -1,0 +1,64 @@
+body {
+  background-color: #ffe3e3;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 500px;
+  background-color: #f7c3c9;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  border: 2px solid rgb(253, 208, 215);
+  text-align: center;
+}
+
+h2 {
+  color: #79204b;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.loveCalculator {
+  margin-top: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #b61261;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+  color: #df4d93;
+  font-size: 14px;
+  border-color: #e795bd;
+}
+
+button {
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+#result {
+  margin-top: 15px;
+  font-size: 20px;
+  color: #79204b;
+}
